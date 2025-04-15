@@ -49,7 +49,7 @@ app.get("/session", async (req, res) => {
     body: JSON.stringify({
       model: "gpt-4o-realtime-preview-2024-12-17",
       voice: "ash",
-      instructions: instruction_2,
+      instructions: instruction_1,
       turn_detection: {"type": "semantic_vad"}
     }),
   });
